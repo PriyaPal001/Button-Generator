@@ -6,13 +6,8 @@ import { sveltePreprocess } from 'svelte-preprocess/dist/autoProcess'
 // https://vitejs.dev/config/
 
 export default defineConfig({
-    // server: {
-    //     hmr: {
-    //         overlay: false,
-    //     },
-    // },
+    base: '/Button-Generator/',
     plugins: [svelte({
         preprocess: sveltePreprocess(),
-
     })],
 })

@@ -85,7 +85,7 @@
       <input type="number" bind:value={radius} />
     </div>
     <div>
-      <h1>Box-shadow :</h1>
+      <h1>Border :</h1>
       <input type="number" bind:value={border} />
       <input type="color" bind:value={borderColor} />
     </div>
