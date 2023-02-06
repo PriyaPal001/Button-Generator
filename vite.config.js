@@ -8,6 +8,5 @@ export default defineConfig({
     base: '/Button-Generator/',
     plugins: [svelte({
         preprocess: sveltePreprocess(),
-
     })],
 })
